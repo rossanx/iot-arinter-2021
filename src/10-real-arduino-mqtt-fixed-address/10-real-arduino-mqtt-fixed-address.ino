@@ -1,7 +1,8 @@
 /*
  * Author: rossano at gmail dot com
  */
-
+ 
+#include <SPI.h>
 #include <Ethernet.h>
 #include <PubSubClient.h>
 
