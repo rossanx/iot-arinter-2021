@@ -8,4 +8,3 @@ TOKEN="-RGqXfDNOdit4cpCvSarQqCPawRQoC5kuDKdQbrCyLhO_JiXtu1UgQoYhukzXZNUKaHE2-6Fb
 influx query -o CPS -t $TOKEN 'from(bucket:"iot")
    |> range(start: 2021-07-19T16:00:00Z, stop: 2021-07-19T16:05:00Z)'
 
-
